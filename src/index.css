@@ -48,6 +48,14 @@ h1, h2, h3 {
   font-size: 60px;
   margin-bottom: 0px;
 }
+.logo-mobile {
+  display: table;
+  font-family: 'Julius Sans One', sans-serif;
+  color: #ffffff;
+  padding: 12px 10px 7px 10px;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
 .headerRight {
   height: 100%;
   background: red;
@@ -80,4 +88,30 @@ h1, h2, h3 {
 }
 .liStyleHeaderRight {
   padding: 30px 20px;
+}
+
+.bg-menu-mobile {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+
+  background: black;
+
+/* background: #159957;
+background: -webkit-linear-gradient(to top, #155799, #159957);
+background: linear-gradient(to top, #155799, #159957); */
+}
+.menu-mobile-wrap > ul {
+  margin: 0;
+  padding: 0;
+  padding: 30px;
+}
+.menu-mobile-wrap > ul > li {
+  list-style: none;
+  color: white;
+  /* background: yellow; */
+  padding: 10px;
+  border-bottom: thin solid rgb(22, 22, 22);
 }
