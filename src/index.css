@@ -92,21 +92,17 @@ h1, h2, h3 {
 
 .bg-menu-mobile {
   width: 100%;
-  /* height: 100%; */
+  height: 100%;
   position: absolute;
   top: 0;
   z-index: 10;
 
   background: black;
-
-/* background: #159957;
-background: -webkit-linear-gradient(to top, #155799, #159957);
-background: linear-gradient(to top, #155799, #159957); */
 }
 .menu-mobile-wrap > ul {
   margin: 0;
   padding: 0;
-  padding: 30px;
+  padding: 15px;
 }
 .menu-mobile-wrap > ul > li {
   list-style: none;

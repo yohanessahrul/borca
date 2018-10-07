@@ -6,7 +6,7 @@ class ContentMenuMobile extends Component {
     return (
       <div style={{ width: '100%' }}>
         <div className="menu-mobile-wrap">
-          <div style={{ display: 'table', margin: '0 auto', fontSize: '50px', marginBottom: '-50px' }} className="logo-mobile">BORCA</div>
+          <div style={{ display: 'table', margin: '-30px auto', fontSize: '50px' }} className="logo-mobile">BORCA</div>
           <ul>
             <hr/>
             <li>New Arrival</li>
