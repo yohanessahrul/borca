@@ -29,7 +29,7 @@ class HeaderMobile extends Component {
               <Container>
                 <Row>
                   <Col xs="12">
-                    <Icon onClick={this.showMenu} style={{ color: 'white', float: 'right', padding: '10px', background: '#1e1e1e' }} icon={ic_close} size={35}/>
+                    <Icon onClick={this.showMenu} style={{ color: 'white', float: 'right', padding: '10px', margin: '20px 10px' }} icon={ic_close} size={30}/>
                   </Col>
                 </Row>
                 <Row>

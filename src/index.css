@@ -92,7 +92,7 @@ h1, h2, h3 {
 
 .bg-menu-mobile {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   position: absolute;
   top: 0;
   z-index: 10;
@@ -112,6 +112,6 @@ background: linear-gradient(to top, #155799, #159957); */
   list-style: none;
   color: white;
   /* background: yellow; */
-  padding: 10px;
-  border-bottom: thin solid rgb(22, 22, 22);
+  padding: 8px;
+  /* border-bottom: thin solid rgb(22, 22, 22); */
 }
