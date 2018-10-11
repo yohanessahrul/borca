@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Headers from '../component/Headers';
 import { Container, Row, Col} from 'reactstrap';
 
-class Top extends Component {
+class KonfirmasiPembayaran extends Component {
   render() {
     return (
       <div>
@@ -10,8 +10,8 @@ class Top extends Component {
         <Container>
           <Row>
             <Col>
-              <h1>Top</h1>
-              <div style={{ width: '100%', height: '700px', background: 'orange' }}></div>
+              <h1>Konfirmasi Pembayaran</h1>
+              <div style={{ width: '100%', height: '700px', background: '#dedefc' }}></div>
             </Col>
           </Row>
         </Container>
@@ -20,4 +20,4 @@ class Top extends Component {
   }
 }
 
-export default Top;
+export default KonfirmasiPembayaran;

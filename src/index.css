@@ -12,7 +12,6 @@ h1, h2, h3 {
 }
 .subHeader {
   /* background: #ececec; */
-  
 }
 .subHeader > ul {
   margin: 0px;
@@ -33,11 +32,11 @@ h1, h2, h3 {
 }
 .subHeaderLink:hover {
   text-decoration: none;
-  color: black;
+  color: white !important;
 }
 .subHeader > ul > li:hover {
-  background: #d1d1d1;
-  color: 'white';
+  background: #434568;
+  /* color: red; */
 }
 
 .logo {

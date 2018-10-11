@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { Container, Row, Col} from 'reactstrap';
-
-// import { Icon } from 'react-icons-kit';
-// import {menu} from 'react-icons-kit/iconic/';
 import { Icon } from 'react-icons-kit';
 import {ic_search, ic_account_circle} from 'react-icons-kit/md';
 
@@ -19,7 +17,11 @@ class Header extends Component {
               
             </Col>
             <Col md="4">
-              <h1 className="logo">BORCA</h1>
+              <h1 className="logo">
+                <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>
+                  BORCA
+                </Link>
+              </h1>
             </Col>
             <Col md="4" style={{ position: 'relative' }}>
               <div style={{ position: 'absolute', right: 0 }} className="headerRight">
@@ -42,10 +44,6 @@ class Header extends Component {
       </div>
     );
   }
-}
-
-const styles = {
-
 }
 
 export default Header;
