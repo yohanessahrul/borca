@@ -10,17 +10,17 @@ class BottomMenu extends Component {
         <Row>
           <Col md="4">
             <div style={{ width: '100%', height: '100px', background: 'red' }}>
-              <p style={{ color: 'black', display: 'table', margin: '0 auto', paddingTop: '25px', textAlign: 'center' }}>Category <br/> Bottom 1</p>
+              <p style={{ fontSize: '14px', color: 'black', display: 'table', margin: '0 auto', paddingTop: '25px', textAlign: 'center' }}>Category <br/> Bottom 1</p>
             </div>
           </Col>
           <Col md="4">
             <div style={{ width: '100%', height: '100px', background: 'red' }}>
-              <p style={{ color: 'black', display: 'table', margin: '0 auto', paddingTop: '25px', textAlign: 'center' }}>Category <br/> Bottom 2</p>
+              <p style={{ fontSize: '14px', color: 'black', display: 'table', margin: '0 auto', paddingTop: '25px', textAlign: 'center' }}>Category <br/> Bottom 2</p>
             </div>
           </Col>
           <Col md="4">
             <div style={{ width: '100%', height: '100px', background: 'red' }}>
-              <p style={{ color: 'black', display: 'table', margin: '0 auto', paddingTop: '25px', textAlign: 'center' }}>Category <br/> Bottom 3</p>
+              <p style={{ fontSize: '14px', color: 'black', display: 'table', margin: '0 auto', paddingTop: '25px', textAlign: 'center' }}>Category <br/> Bottom 3</p>
             </div>
           </Col>
         </Row>

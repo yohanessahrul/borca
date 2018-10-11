@@ -25,7 +25,7 @@ h1, h2, h3 {
 }
 .subHeaderLink {
   font-size: 14px;
-  color: black;
+  color: rgb(211, 211, 211) !important;
   display: table;
   /* padding: 8px 40px; */
   font-family: 'Roboto Condensed', sans-serif;
