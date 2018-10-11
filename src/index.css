@@ -69,20 +69,20 @@ h1, h2, h3 {
   /* width: 50%; */
   height: 100%;
   display: table;
-  background: #141414;
+  background: #2e304c;
   float: left;
-  border-right: 2px solid #444444;
+  border-right: 2px solid #2e304c;
   color: #999999;
 }
 
 .headerRight > ul > li:first-child {
-  border-left: 2px solid #444444;
+  /* border-left: 2px solid #444444; */
 }
 .headerRight > ul > li:hover {
   /* width: 50%; */
   height: 100%;
   display: table;
-  background: #555555;
+  background: #434568;
   float: left;
   color: black;
 }
@@ -97,7 +97,7 @@ h1, h2, h3 {
   top: 0;
   z-index: 10;
 
-  background: black;
+  background: #17182f;
 }
 .menu-mobile-wrap > ul {
   margin: 0;

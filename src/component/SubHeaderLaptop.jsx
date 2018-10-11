@@ -5,7 +5,7 @@ import { Container, Row, Col} from 'reactstrap';
 class SubHeader extends Component {
   render() {
     return (
-      <div style={{ background: '#e0e0e0' }}>
+      <div style={{ background: '#17182f' }}>
         <Container>
           <Row>
             <Col md="12">

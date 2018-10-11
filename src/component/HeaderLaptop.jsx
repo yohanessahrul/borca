@@ -12,7 +12,7 @@ class Header extends Component {
   }
   render() {
     return (
-      <div style={{ background: 'black' }}>
+      <div style={{ background: '#212340' }}>
         <Container>
           <Row>
             <Col md="4" style={{ position: 'relative' }}>
